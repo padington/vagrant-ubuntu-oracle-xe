@@ -27,7 +27,7 @@ contributions.
 
 * Check out this project:
 
-        git clone https://github.com/hilverd/vagrant-ubuntu-oracle-xe.git
+        git clone https://github.com/padington/vagrant-ubuntu-oracle-xe.git
 
 * Install [vbguest]:
 
@@ -41,6 +41,10 @@ contributions.
 * Run `vagrant up` from the base directory of this project. This should take a few minutes. Please
   note that building the VM involves downloading an Ubuntu 12.04
   [base box](http://docs.vagrantup.com/v2/boxes.html) which is 323MB in size.
+
+* New schema created according to vagrantfile with schema_name = "local" and schema_password = "qwe123" by default
+
+* One should change schema_name and schema_password variables and run `vagrant provision --provision-with shell` to create new schema
 
 These steps are also shown in an [asciicast] made by Daekwon Kang.
 
