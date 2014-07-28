@@ -93,7 +93,7 @@ and restart the database.
 
 [Puppet]: http://puppetlabs.com/
 
-[Oracle Database 11g Express Edition]: http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
+[Oracle Database 11g Express Edition]: https://www.dropbox.com/s/p3ggvh4ym5t39fr/oracle-xe-11.2.0-1.0.x86_64.rpm.zip
 
 [Oracle Database 11g EE Documentation]: http://docs.oracle.com/cd/E17781_01/index.htm
 
