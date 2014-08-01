@@ -42,9 +42,9 @@ contributions.
   note that building the VM involves downloading an Ubuntu 12.04
   [base box](http://docs.vagrantup.com/v2/boxes.html) which is 323MB in size.
 
-* New schema created according to vagrantfile with schema_name = "local" and schema_password = "qwe123" by default
+* Schema is created with first run according to Vagrantfile with schema_name = "local" and schema_password = "qwe123" by default
 
-* One should change schema_name and schema_password variables in Vagrantfile which is placed in root of project and run `vagrant provision --provision-with shell` to create new schema
+* If you want to create new schema: change schema_name and schema_password variables in Vagrantfile which is placed in root of project and run `vagrant provision --provision-with shell`.
 
 These steps are also shown in an [asciicast] made by Daekwon Kang.
 
