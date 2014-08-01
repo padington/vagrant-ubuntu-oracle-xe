@@ -44,7 +44,7 @@ contributions.
 
 * New schema created according to vagrantfile with schema_name = "local" and schema_password = "qwe123" by default
 
-* One should change schema_name and schema_password variables and run `vagrant provision --provision-with shell` to create new schema
+* One should change schema_name and schema_password variables in Vagrantfile which is placed in root of project and run `vagrant provision --provision-with shell` to create new schema
 
 These steps are also shown in an [asciicast] made by Daekwon Kang.
 
