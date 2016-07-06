@@ -89,6 +89,10 @@ to [How many connections can Oracle Express Edition (XE) handle?] you should run
 
 and restart the database.
 
+In case of "ORA-12705: Cannot access NLS data files or invalid environment specified" on Windows machine you can try to switch language settings:
+Go to Control panel > Regional and language options > Format and set your language.
+
+
 [Vagrant]: http://www.vagrantup.com/
 
 [Puppet]: http://puppetlabs.com/
